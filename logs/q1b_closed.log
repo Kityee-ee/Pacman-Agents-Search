@@ -1,0 +1,245 @@
+2025-08-27 19:23:01,866 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:01,866 - main - INFO - input_args: dict_items([('layout', './layouts/q1b_closed.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x103a9b6e0>), ('ghosts', [<RandomGhost.RandomGhost object at 0x103aa97c0>, <RandomGhost.RandomGhost object at 0x103afe750>, <RandomGhost.RandomGhost object at 0x103afe840>, <RandomGhost.RandomGhost object at 0x103afe870>]), ('display', <textDisplay.NullGraphics object at 0x103afe720>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 5), ('outfile', 'q1b_closed')])
+2025-08-27 19:23:01,866 - root - INFO - runGames
+2025-08-27 19:23:01,866 - root - INFO - 0/1
+2025-08-27 19:23:01,866 - root - INFO - newGame
+2025-08-27 19:23:01,866 - root - INFO - layout: %%%%%%%%%%%%%%%%%%%%
+%.%P          %    %
+%%%% %% %% %% %% % %
+%                % %
+%%%%%%%%%%%%%%%%%% %
+%.%.               %
+%%%%%%%%%%%%%%%%%%%%
+2025-08-27 19:23:01,866 - root - INFO - runGame
+2025-08-27 19:23:01,867 - root - INFO - #agents:1
+2025-08-27 19:23:01,867 - root - INFO - #pacman:1
+2025-08-27 19:23:01,867 - root - INFO - #ghosts:0
+2025-08-27 19:23:01,867 - getStartState - INFO - I: q1b_problem,
+2025-08-27 19:23:01,867 - getStartState - INFO - O: (3, 5)
+2025-08-27 19:23:01,867 - isGoalState - INFO - I: q1b_problem,(3, 5),
+2025-08-27 19:23:01,867 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,867 - getSuccessors - INFO - I: q1b_problem,(3, 5),
+2025-08-27 19:23:01,867 - getSuccessors - INFO - O: [((4, 5), 'East', 1)]
+2025-08-27 19:23:01,867 - isGoalState - INFO - I: q1b_problem,(4, 5),
+2025-08-27 19:23:01,867 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(4, 5),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((4, 4), 'South', 1), ((5, 5), 'East', 1), ((3, 5), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(4, 4),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(4, 4),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((4, 5), 'North', 1), ((4, 3), 'South', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(4, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(4, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((4, 4), 'North', 1), ((5, 3), 'East', 1), ((3, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(3, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(3, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((4, 3), 'East', 1), ((2, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(5, 5),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(5, 5),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((6, 5), 'East', 1), ((4, 5), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(5, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(5, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((6, 3), 'East', 1), ((4, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(2, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(2, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((3, 3), 'East', 1), ((1, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(6, 5),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(6, 5),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((7, 5), 'East', 1), ((5, 5), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(6, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(6, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((7, 3), 'East', 1), ((5, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(1, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(1, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((2, 3), 'East', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(7, 5),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(7, 5),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((7, 4), 'South', 1), ((8, 5), 'East', 1), ((6, 5), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(7, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(7, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((7, 4), 'North', 1), ((8, 3), 'East', 1), ((6, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(7, 4),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(7, 4),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((7, 5), 'North', 1), ((7, 3), 'South', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(8, 5),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(8, 5),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((9, 5), 'East', 1), ((7, 5), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(8, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(8, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((9, 3), 'East', 1), ((7, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(9, 5),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(9, 5),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((10, 5), 'East', 1), ((8, 5), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(9, 3),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(9, 3),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((10, 3), 'East', 1), ((8, 3), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(10, 5),
+2025-08-27 19:23:01,868 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,868 - getSuccessors - INFO - I: q1b_problem,(10, 5),
+2025-08-27 19:23:01,868 - getSuccessors - INFO - O: [((10, 4), 'South', 1), ((11, 5), 'East', 1), ((9, 5), 'West', 1)]
+2025-08-27 19:23:01,868 - isGoalState - INFO - I: q1b_problem,(10, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(10, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((10, 4), 'North', 1), ((11, 3), 'East', 1), ((9, 3), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(10, 4),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(10, 4),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((10, 5), 'North', 1), ((10, 3), 'South', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(11, 5),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(11, 5),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((12, 5), 'East', 1), ((10, 5), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(11, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(11, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((12, 3), 'East', 1), ((10, 3), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(12, 5),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(12, 5),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((13, 5), 'East', 1), ((11, 5), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(12, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(12, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((13, 3), 'East', 1), ((11, 3), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(13, 5),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(13, 5),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((13, 4), 'South', 1), ((12, 5), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(13, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(13, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((13, 4), 'North', 1), ((14, 3), 'East', 1), ((12, 3), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(13, 4),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(13, 4),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((13, 5), 'North', 1), ((13, 3), 'South', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(14, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(14, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((15, 3), 'East', 1), ((13, 3), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(15, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(15, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((16, 3), 'East', 1), ((14, 3), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(16, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(16, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((16, 4), 'North', 1), ((15, 3), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(16, 4),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(16, 4),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((16, 5), 'North', 1), ((16, 3), 'South', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(16, 5),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(16, 5),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((16, 4), 'South', 1), ((17, 5), 'East', 1), ((15, 5), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(15, 5),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(15, 5),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((16, 5), 'East', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(17, 5),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(17, 5),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((18, 5), 'East', 1), ((16, 5), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(18, 5),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(18, 5),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((18, 4), 'South', 1), ((17, 5), 'West', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(18, 4),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(18, 4),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((18, 5), 'North', 1), ((18, 3), 'South', 1)]
+2025-08-27 19:23:01,869 - isGoalState - INFO - I: q1b_problem,(18, 3),
+2025-08-27 19:23:01,869 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,869 - getSuccessors - INFO - I: q1b_problem,(18, 3),
+2025-08-27 19:23:01,869 - getSuccessors - INFO - O: [((18, 4), 'North', 1), ((18, 2), 'South', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(18, 2),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(18, 2),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((18, 3), 'North', 1), ((18, 1), 'South', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(18, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(18, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((18, 2), 'North', 1), ((17, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(17, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(17, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((18, 1), 'East', 1), ((16, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(16, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(16, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((17, 1), 'East', 1), ((15, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(15, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(15, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((16, 1), 'East', 1), ((14, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(14, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(14, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((15, 1), 'East', 1), ((13, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(13, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(13, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((14, 1), 'East', 1), ((12, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(12, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(12, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((13, 1), 'East', 1), ((11, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(11, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(11, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((12, 1), 'East', 1), ((10, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(10, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(10, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((11, 1), 'East', 1), ((9, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(9, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(9, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((10, 1), 'East', 1), ((8, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(8, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(8, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((9, 1), 'East', 1), ((7, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(7, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(7, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((8, 1), 'East', 1), ((6, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(6, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(6, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((7, 1), 'East', 1), ((5, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(5, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(5, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((6, 1), 'East', 1), ((4, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(4, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,870 - getSuccessors - INFO - I: q1b_problem,(4, 1),
+2025-08-27 19:23:01,870 - getSuccessors - INFO - O: [((5, 1), 'East', 1), ((3, 1), 'West', 1)]
+2025-08-27 19:23:01,870 - isGoalState - INFO - I: q1b_problem,(3, 1),
+2025-08-27 19:23:01,870 - isGoalState - INFO - O: True
+2025-08-27 19:23:01,875 - root - INFO - Out of actions
+2025-08-27 19:23:01,875 - root - INFO - Remaining Food: 2
+2025-08-27 19:23:01,876 - root - INFO - Remaining Food: 2
+2025-08-27 19:23:01,876 - root - INFO - moveHistory: [[(0, 'East'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'North'), (0, 'North'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West')]]
+2025-08-27 19:23:01,876 - root - INFO - pathLength: [38]
+2025-08-27 19:23:01,876 - root - INFO - Average Score: -28.00
+2025-08-27 19:23:01,876 - root - INFO - Scores: -28.0
+2025-08-27 19:23:01,876 - root - INFO - Win Rate:      0/1 (0.00)
+2025-08-27 19:23:01,876 - root - INFO - Record:       Draw

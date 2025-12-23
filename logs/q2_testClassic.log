@@ -1,0 +1,312 @@
+2025-08-27 19:23:13,307 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:13,307 - main - INFO - input_args: dict_items([('layout', './layouts/q2_testClassic.lay'), ('pacman', <Q2_Agent.Q2_Agent object at 0x102e477a0>), ('ghosts', [<RandomGhost.RandomGhost object at 0x102b958b0>, <RandomGhost.RandomGhost object at 0x102e59eb0>, <RandomGhost.RandomGhost object at 0x102e59ee0>, <RandomGhost.RandomGhost object at 0x102e59fd0>]), ('display', <textDisplay.NullGraphics object at 0x102e59fa0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 30), ('outfile', 'q2_testClassic')])
+2025-08-27 19:23:13,307 - root - INFO - runGames
+2025-08-27 19:23:13,307 - root - INFO - 0/1
+2025-08-27 19:23:13,307 - root - INFO - newGame
+2025-08-27 19:23:13,307 - root - INFO - layout: %%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%P .%
+%%%%%
+2025-08-27 19:23:13,307 - root - INFO - runGame
+2025-08-27 19:23:13,308 - root - INFO - #agents:2
+2025-08-27 19:23:13,308 - root - INFO - #pacman:1
+2025-08-27 19:23:13,308 - root - INFO - #ghosts:1
+2025-08-27 19:23:13,308 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%.G.%
+% . %
+%. .%
+%   %
+%  .%
+%   %
+%< .%
+%%%%%
+Score: 0
+,
+2025-08-27 19:23:13,308 - getAction - INFO - O: East
+2025-08-27 19:23:13,309 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% G %
+%. .%
+%   %
+%  .%
+%   %
+% <.%
+%%%%%
+Score: -1
+,
+2025-08-27 19:23:13,309 - getAction - INFO - O: East
+2025-08-27 19:23:13,309 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%.G.%
+%   %
+%  .%
+%   %
+%  <%
+%%%%%
+Score: 8
+,
+2025-08-27 19:23:13,309 - getAction - INFO - O: North
+2025-08-27 19:23:13,310 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%G .%
+%   %
+%  .%
+%  v%
+%   %
+%%%%%
+Score: 7
+,
+2025-08-27 19:23:13,310 - getAction - INFO - O: North
+2025-08-27 19:23:13,311 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%G  %
+%  v%
+%   %
+%   %
+%%%%%
+Score: 16
+,
+2025-08-27 19:23:13,311 - getAction - INFO - O: South
+2025-08-27 19:23:13,311 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%G  %
+%  ^%
+%   %
+%%%%%
+Score: 15
+,
+2025-08-27 19:23:13,311 - getAction - INFO - O: South
+2025-08-27 19:23:13,312 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%G  %
+%  ^%
+%%%%%
+Score: 14
+,
+2025-08-27 19:23:13,312 - getAction - INFO - O: West
+2025-08-27 19:23:13,312 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+%   %
+%G> %
+%%%%%
+Score: 13
+,
+2025-08-27 19:23:13,312 - getAction - INFO - O: North
+2025-08-27 19:23:13,313 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+%   %
+% v %
+% G %
+%%%%%
+Score: 12
+,
+2025-08-27 19:23:13,313 - getAction - INFO - O: North
+2025-08-27 19:23:13,313 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+%   %
+% v %
+% G %
+%   %
+%%%%%
+Score: 11
+,
+2025-08-27 19:23:13,313 - getAction - INFO - O: North
+2025-08-27 19:23:13,314 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%. .%
+% v %
+%   %
+%  G%
+%   %
+%%%%%
+Score: 10
+,
+2025-08-27 19:23:13,314 - getAction - INFO - O: North
+2025-08-27 19:23:13,314 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% . %
+%.v.%
+%   %
+%   %
+%   %
+%  G%
+%%%%%
+Score: 9
+,
+2025-08-27 19:23:13,314 - getAction - INFO - O: North
+2025-08-27 19:23:13,316 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. .%
+% v %
+%. .%
+%   %
+%   %
+%   %
+% G %
+%%%%%
+Score: 18
+,
+2025-08-27 19:23:13,316 - getAction - INFO - O: North
+2025-08-27 19:23:13,318 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%.v.%
+%   %
+%. .%
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 17
+,
+2025-08-27 19:23:13,318 - getAction - INFO - O: East
+2025-08-27 19:23:13,320 - getAction - INFO - I: Q2_Agent,%%%%%
+% . %
+%. <%
+%   %
+%. .%
+%   %
+%   %
+%G  %
+%   %
+%%%%%
+Score: 26
+,
+2025-08-27 19:23:13,320 - getAction - INFO - O: North
+2025-08-27 19:23:13,322 - getAction - INFO - I: Q2_Agent,%%%%%
+% .v%
+%.  %
+%   %
+%. .%
+%   %
+%G  %
+%   %
+%   %
+%%%%%
+Score: 25
+,
+2025-08-27 19:23:13,322 - getAction - INFO - O: West
+2025-08-27 19:23:13,323 - getAction - INFO - I: Q2_Agent,%%%%%
+% > %
+%.  %
+%   %
+%. .%
+%   %
+% G %
+%   %
+%   %
+%%%%%
+Score: 34
+,
+2025-08-27 19:23:13,323 - getAction - INFO - O: West
+2025-08-27 19:23:13,325 - getAction - INFO - I: Q2_Agent,%%%%%
+%>  %
+%.  %
+%   %
+%. .%
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 33
+,
+2025-08-27 19:23:13,325 - getAction - INFO - O: South
+2025-08-27 19:23:13,328 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%^  %
+%   %
+%. .%
+%   %
+%   %
+%  G%
+%   %
+%%%%%
+Score: 42
+,
+2025-08-27 19:23:13,328 - getAction - INFO - O: South
+2025-08-27 19:23:13,334 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%   %
+%^  %
+%. .%
+%   %
+%  G%
+%   %
+%   %
+%%%%%
+Score: 41
+,
+2025-08-27 19:23:13,334 - getAction - INFO - O: South
+2025-08-27 19:23:13,339 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%   %
+%   %
+%^ .%
+%   %
+% G %
+%   %
+%   %
+%%%%%
+Score: 50
+,
+2025-08-27 19:23:13,339 - getAction - INFO - O: East
+2025-08-27 19:23:13,342 - getAction - INFO - I: Q2_Agent,%%%%%
+%   %
+%   %
+%   %
+% <.%
+%   %
+%   %
+% G %
+%   %
+%%%%%
+Score: 49
+,
+2025-08-27 19:23:13,342 - getAction - INFO - O: East
+2025-08-27 19:23:13,342 - root - INFO - Remaining Food: 0
+2025-08-27 19:23:13,342 - root - INFO - moveHistory: [[(0, 'East'), (1, 'South'), (0, 'East'), (1, 'South'), (0, 'North'), (1, 'West'), (0, 'North'), (1, 'South'), (0, 'South'), (1, 'South'), (0, 'South'), (1, 'South'), (0, 'West'), (1, 'South'), (0, 'North'), (1, 'East'), (0, 'North'), (1, 'North'), (0, 'North'), (1, 'East'), (0, 'North'), (1, 'South'), (0, 'North'), (1, 'West'), (0, 'North'), (1, 'North'), (0, 'East'), (1, 'West'), (0, 'North'), (1, 'North'), (0, 'West'), (1, 'East'), (0, 'West'), (1, 'South'), (0, 'South'), (1, 'East'), (0, 'South'), (1, 'North'), (0, 'South'), (1, 'West'), (0, 'East'), (1, 'South'), (0, 'East')]]
+2025-08-27 19:23:13,342 - root - INFO - pathLength: [43]
+2025-08-27 19:23:13,342 - root - INFO - Average Score: 558.00
+2025-08-27 19:23:13,342 - root - INFO - Scores: 558.0
+2025-08-27 19:23:13,342 - root - INFO - Win Rate:      1/1 (1.00)
+2025-08-27 19:23:13,342 - root - INFO - Record:       Win

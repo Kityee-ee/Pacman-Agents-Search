@@ -1,0 +1,77 @@
+2025-08-27 19:23:13,438 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:13,438 - main - INFO - input_args: dict_items([('layout', './layouts/q2_minimaxClassic.lay'), ('pacman', <Q2_Agent.Q2_Agent object at 0x100c5b7a0>), ('ghosts', [<RandomGhost.RandomGhost object at 0x1009a98b0>, <RandomGhost.RandomGhost object at 0x100c6deb0>, <RandomGhost.RandomGhost object at 0x100c6dee0>, <RandomGhost.RandomGhost object at 0x100c6dfd0>]), ('display', <textDisplay.NullGraphics object at 0x100c6dfa0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 30), ('outfile', 'q2_minimaxClassic')])
+2025-08-27 19:23:13,438 - root - INFO - runGames
+2025-08-27 19:23:13,438 - root - INFO - 0/1
+2025-08-27 19:23:13,439 - root - INFO - newGame
+2025-08-27 19:23:13,439 - root - INFO - layout: %%%%%%%%%
+%.P    G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+2025-08-27 19:23:13,439 - root - INFO - runGame
+2025-08-27 19:23:13,439 - root - INFO - #agents:3
+2025-08-27 19:23:13,439 - root - INFO - #pacman:1
+2025-08-27 19:23:13,439 - root - INFO - #ghosts:2
+2025-08-27 19:23:13,442 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%.<    G%
+% %.% %%%
+%G    %%%
+%%%%%%%%%
+Score: 0
+,
+2025-08-27 19:23:13,442 - getAction - INFO - O: East
+2025-08-27 19:23:13,445 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%. <  G %
+%G%.% %%%
+%     %%%
+%%%%%%%%%
+Score: -1
+,
+2025-08-27 19:23:13,445 - getAction - INFO - O: South
+2025-08-27 19:23:13,448 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%G   G  %
+% %^% %%%
+%     %%%
+%%%%%%%%%
+Score: 8
+,
+2025-08-27 19:23:13,448 - getAction - INFO - O: South
+2025-08-27 19:23:13,453 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%.G G   %
+% % % %%%
+%  ^  %%%
+%%%%%%%%%
+Score: 7
+,
+2025-08-27 19:23:13,453 - getAction - INFO - O: West
+2025-08-27 19:23:13,456 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%. G    %
+% % % %%%
+% >   %%%
+%%%%%%%%%
+Score: 6
+,
+2025-08-27 19:23:13,456 - getAction - INFO - O: West
+2025-08-27 19:23:13,457 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%.      %
+% %G% %%%
+%>    %%%
+%%%%%%%%%
+Score: 5
+,
+2025-08-27 19:23:13,457 - getAction - INFO - O: North
+2025-08-27 19:23:13,459 - getAction - INFO - I: Q2_Agent,%%%%%%%%%
+%.      %
+%v% % %%%
+%  G  %%%
+%%%%%%%%%
+Score: 4
+,
+2025-08-27 19:23:13,459 - getAction - INFO - O: North
+2025-08-27 19:23:13,459 - root - INFO - Remaining Food: 0
+2025-08-27 19:23:13,459 - root - INFO - moveHistory: [[(0, 'East'), (1, 'North'), (2, 'West'), (0, 'South'), (1, 'North'), (2, 'West'), (0, 'South'), (1, 'East'), (2, 'West'), (0, 'West'), (1, 'East'), (2, 'West'), (0, 'West'), (1, 'South'), (2, 'South'), (0, 'North'), (1, 'South'), (2, 'South'), (0, 'North')]]
+2025-08-27 19:23:13,459 - root - INFO - pathLength: [19]
+2025-08-27 19:23:13,459 - root - INFO - Average Score: 513.00
+2025-08-27 19:23:13,459 - root - INFO - Scores: 513.0
+2025-08-27 19:23:13,459 - root - INFO - Win Rate:      1/1 (1.00)
+2025-08-27 19:23:13,459 - root - INFO - Record:       Win

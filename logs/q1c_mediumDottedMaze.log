@@ -1,0 +1,36 @@
+2025-08-27 19:23:09,877 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:09,877 - main - INFO - input_args: dict_items([('layout', './layouts/q1c_mediumDottedMaze.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x1053b7770>), ('ghosts', [<RandomGhost.RandomGhost object at 0x1053c5850>, <RandomGhost.RandomGhost object at 0x1053f64b0>, <RandomGhost.RandomGhost object at 0x1053f79b0>, <RandomGhost.RandomGhost object at 0x1053f7a40>]), ('display', <textDisplay.NullGraphics object at 0x1053f64e0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 10), ('outfile', 'q1c_mediumDottedMaze')])
+2025-08-27 19:23:09,877 - root - INFO - runGames
+2025-08-27 19:23:09,877 - root - INFO - 0/1
+2025-08-27 19:23:09,878 - root - INFO - newGame
+2025-08-27 19:23:09,878 - root - INFO - layout: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 P%
+% %%%%%%%%%%%%%%%%%%% %%% %%%%%%%% %
+% %%   %   %      %%% %%%   %% ... %
+% %% % % % % %%%% %%%%%%%%% %% %%%%%
+% %% % % % % %    %%     %% %% ... %
+% %% % % % % % %%%%  %%%    %%%%%% %
+% %  % % %   %    %% %%%%%%%%  ... %
+% %% % % %%%%%%%% %%        %% %%%%%
+% %% %   %%       %%%%%%%%% %% ... %
+%    %%%%%% %%%%%%%      %% %%%%%% %
+%%%%%%      %       %%%% %% %  ... %
+%      %%%%%% %%%%% %    %% %% %%%%%
+% %%%%%%      %       %%%%% %%     %
+%        %%%%%% %%%%%%%%%%% %%  %% %
+%%%%%%%%%%                  %%%%%% %
+%.         %%%%%%%%%%%%%%%% ...... %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+2025-08-27 19:23:09,878 - root - INFO - runGame
+2025-08-27 19:23:09,913 - root - INFO - #agents:1
+2025-08-27 19:23:09,913 - root - INFO - #pacman:1
+2025-08-27 19:23:09,913 - root - INFO - #ghosts:0
+2025-08-27 19:23:09,914 - getStartState - INFO - I: q1c_problem,
+2025-08-27 19:23:09,914 - getStartState - INFO - O: ((34, 16), [(1, 1), (28, 1), (29, 1), (30, 1), (31, 1), (31, 6), (31, 8), (31, 10), (31, 12), (31, 14), (32, 1), (32, 6), (32, 8), (32, 10), (32, 12), (32, 14), (33, 1), (33, 6), (33, 8), (33, 10), (33, 12), (33, 14)])
+2025-08-27 19:23:09,942 - root - INFO - Remaining Food: 0
+2025-08-27 19:23:09,942 - root - INFO - moveHistory: [[(0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'North'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West')]]
+2025-08-27 19:23:09,942 - root - INFO - pathLength: [74]
+2025-08-27 19:23:09,942 - root - INFO - Average Score: 646.00
+2025-08-27 19:23:09,942 - root - INFO - Scores: 646.0
+2025-08-27 19:23:09,942 - root - INFO - Win Rate:      1/1 (1.00)
+2025-08-27 19:23:09,942 - root - INFO - Record:       Win

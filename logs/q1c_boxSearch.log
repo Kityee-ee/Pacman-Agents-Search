@@ -1,0 +1,32 @@
+2025-08-27 19:23:11,862 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:11,862 - main - INFO - input_args: dict_items([('layout', './layouts/q1c_boxSearch.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x10509b770>), ('ghosts', [<RandomGhost.RandomGhost object at 0x1050ad820>, <RandomGhost.RandomGhost object at 0x1050da480>, <RandomGhost.RandomGhost object at 0x1050db980>, <RandomGhost.RandomGhost object at 0x1050dba10>]), ('display', <textDisplay.NullGraphics object at 0x1050da4b0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 10), ('outfile', 'q1c_boxSearch')])
+2025-08-27 19:23:11,863 - root - INFO - runGames
+2025-08-27 19:23:11,863 - root - INFO - 0/1
+2025-08-27 19:23:11,864 - root - INFO - newGame
+2025-08-27 19:23:11,864 - root - INFO - layout: %%%%%%%%%%%%%%
+%. . . . . % %
+%          % %
+%. . . . . % %
+%          % %
+%. . . . . % %
+%          % %
+%. . . . . % %
+%     P    % %
+%. . . . . % %
+%          % %
+%. . . . . % %
+%          % %
+%%%%%%%%%%%%%%
+2025-08-27 19:23:11,864 - root - INFO - runGame
+2025-08-27 19:23:11,938 - root - INFO - #agents:1
+2025-08-27 19:23:11,938 - root - INFO - #pacman:1
+2025-08-27 19:23:11,938 - root - INFO - #ghosts:0
+2025-08-27 19:23:11,938 - getStartState - INFO - I: q1c_problem,
+2025-08-27 19:23:11,938 - getStartState - INFO - O: ((6, 5), [(1, 2), (1, 4), (1, 6), (1, 8), (1, 10), (1, 12), (3, 2), (3, 4), (3, 6), (3, 8), (3, 10), (3, 12), (5, 2), (5, 4), (5, 6), (5, 8), (5, 10), (5, 12), (7, 2), (7, 4), (7, 6), (7, 8), (7, 10), (7, 12), (9, 2), (9, 4), (9, 6), (9, 8), (9, 10), (9, 12)])
+2025-08-27 19:23:11,948 - root - INFO - Remaining Food: 0
+2025-08-27 19:23:11,948 - root - INFO - moveHistory: [[(0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North')]]
+2025-08-27 19:23:11,948 - root - INFO - pathLength: [66]
+2025-08-27 19:23:11,948 - root - INFO - Average Score: 734.00
+2025-08-27 19:23:11,948 - root - INFO - Scores: 734.0
+2025-08-27 19:23:11,948 - root - INFO - Win Rate:      1/1 (1.00)
+2025-08-27 19:23:11,948 - root - INFO - Record:       Win

@@ -1,0 +1,25 @@
+2025-08-27 19:23:11,796 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:11,796 - main - INFO - input_args: dict_items([('layout', './layouts/q1c_tinySearch.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x104fc7710>), ('ghosts', [<RandomGhost.RandomGhost object at 0x104fd97c0>, <RandomGhost.RandomGhost object at 0x105006630>, <RandomGhost.RandomGhost object at 0x1050079e0>, <RandomGhost.RandomGhost object at 0x105007b30>]), ('display', <textDisplay.NullGraphics object at 0x105006450>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 10), ('outfile', 'q1c_tinySearch')])
+2025-08-27 19:23:11,796 - root - INFO - runGames
+2025-08-27 19:23:11,797 - root - INFO - 0/1
+2025-08-27 19:23:11,797 - root - INFO - newGame
+2025-08-27 19:23:11,797 - root - INFO - layout: %%%%%%%%%
+%..   ..%
+%%%%.%% %
+%   P   %
+%.%% %%.%
+%.%.   .%
+%%%%%%%%%
+2025-08-27 19:23:11,797 - root - INFO - runGame
+2025-08-27 19:23:11,800 - root - INFO - #agents:1
+2025-08-27 19:23:11,800 - root - INFO - #pacman:1
+2025-08-27 19:23:11,800 - root - INFO - #ghosts:0
+2025-08-27 19:23:11,800 - getStartState - INFO - I: q1c_problem,
+2025-08-27 19:23:11,800 - getStartState - INFO - O: ((4, 3), [(1, 1), (1, 2), (1, 5), (2, 5), (3, 1), (4, 4), (6, 5), (7, 1), (7, 2), (7, 5)])
+2025-08-27 19:23:11,802 - root - INFO - Remaining Food: 0
+2025-08-27 19:23:11,802 - root - INFO - moveHistory: [[(0, 'North'), (0, 'North'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'East'), (0, 'North'), (0, 'North'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'South'), (0, 'South')]]
+2025-08-27 19:23:11,802 - root - INFO - pathLength: [27]
+2025-08-27 19:23:11,802 - root - INFO - Average Score: 573.00
+2025-08-27 19:23:11,802 - root - INFO - Scores: 573.0
+2025-08-27 19:23:11,802 - root - INFO - Win Rate:      1/1 (1.00)
+2025-08-27 19:23:11,802 - root - INFO - Record:       Win

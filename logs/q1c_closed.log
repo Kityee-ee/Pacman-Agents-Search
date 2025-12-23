@@ -1,0 +1,27 @@
+2025-08-27 19:23:12,073 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:12,073 - main - INFO - input_args: dict_items([('layout', './layouts/q1c_closed.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x1035e3710>), ('ghosts', [<RandomGhost.RandomGhost object at 0x1035f57f0>, <RandomGhost.RandomGhost object at 0x103622660>, <RandomGhost.RandomGhost object at 0x103623a10>, <RandomGhost.RandomGhost object at 0x103623b60>]), ('display', <textDisplay.NullGraphics object at 0x103622480>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 10), ('outfile', 'q1c_closed')])
+2025-08-27 19:23:12,073 - root - INFO - runGames
+2025-08-27 19:23:12,073 - root - INFO - 0/1
+2025-08-27 19:23:12,074 - root - INFO - newGame
+2025-08-27 19:23:12,074 - root - INFO - layout: %%%%%%%%%%%%%%%%%%%%
+%.%P          %    %
+%%%% %% %% %% %% % %
+%                % %
+%%%%%%%%%%%%%%%%%% %
+%.%................%
+%%%%%%%%%%%%%%%%%%%%
+2025-08-27 19:23:12,074 - root - INFO - runGame
+2025-08-27 19:23:12,085 - root - INFO - #agents:1
+2025-08-27 19:23:12,085 - root - INFO - #pacman:1
+2025-08-27 19:23:12,085 - root - INFO - #ghosts:0
+2025-08-27 19:23:12,085 - getStartState - INFO - I: q1c_problem,
+2025-08-27 19:23:12,085 - getStartState - INFO - O: ((3, 5), [(1, 1), (1, 5), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1), (12, 1), (13, 1), (14, 1), (15, 1), (16, 1), (17, 1), (18, 1)])
+2025-08-27 19:23:12,090 - root - INFO - Out of actions
+2025-08-27 19:23:12,090 - root - INFO - Remaining Food: 2
+2025-08-27 19:23:12,090 - root - INFO - Remaining Food: 2
+2025-08-27 19:23:12,090 - root - INFO - moveHistory: [[(0, 'East'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'North'), (0, 'North'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'South'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'West')]]
+2025-08-27 19:23:12,090 - root - INFO - pathLength: [38]
+2025-08-27 19:23:12,090 - root - INFO - Average Score: 122.00
+2025-08-27 19:23:12,090 - root - INFO - Scores: 122.0
+2025-08-27 19:23:12,090 - root - INFO - Win Rate:      0/1 (0.00)
+2025-08-27 19:23:12,090 - root - INFO - Record:       Draw

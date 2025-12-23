@@ -1,0 +1,26 @@
+2025-08-27 19:23:12,008 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:12,008 - main - INFO - input_args: dict_items([('layout', './layouts/q1c_greedySearch.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x101823770>), ('ghosts', [<RandomGhost.RandomGhost object at 0x101835820>, <RandomGhost.RandomGhost object at 0x101862480>, <RandomGhost.RandomGhost object at 0x101863980>, <RandomGhost.RandomGhost object at 0x101863a10>]), ('display', <textDisplay.NullGraphics object at 0x1018624b0>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 10), ('outfile', 'q1c_greedySearch')])
+2025-08-27 19:23:12,008 - root - INFO - runGames
+2025-08-27 19:23:12,008 - root - INFO - 0/1
+2025-08-27 19:23:12,009 - root - INFO - newGame
+2025-08-27 19:23:12,009 - root - INFO - layout: %%%%%%
+%....%
+% %%.%
+% %%.%
+%.P .%
+%.%%%%
+%....%
+%%%%%%
+2025-08-27 19:23:12,010 - root - INFO - runGame
+2025-08-27 19:23:12,012 - root - INFO - #agents:1
+2025-08-27 19:23:12,012 - root - INFO - #pacman:1
+2025-08-27 19:23:12,012 - root - INFO - #ghosts:0
+2025-08-27 19:23:12,012 - getStartState - INFO - I: q1c_problem,
+2025-08-27 19:23:12,012 - getStartState - INFO - O: ((2, 3), [(1, 1), (1, 2), (1, 3), (1, 6), (2, 1), (2, 6), (3, 1), (3, 6), (4, 1), (4, 3), (4, 4), (4, 5), (4, 6)])
+2025-08-27 19:23:12,014 - root - INFO - Remaining Food: 0
+2025-08-27 19:23:12,014 - root - INFO - moveHistory: [[(0, 'West'), (0, 'South'), (0, 'South'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'West'), (0, 'West'), (0, 'West'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'North'), (0, 'East'), (0, 'East'), (0, 'East'), (0, 'South'), (0, 'South'), (0, 'South')]]
+2025-08-27 19:23:12,014 - root - INFO - pathLength: [20]
+2025-08-27 19:23:12,014 - root - INFO - Average Score: 610.00
+2025-08-27 19:23:12,014 - root - INFO - Scores: 610.0
+2025-08-27 19:23:12,014 - root - INFO - Win Rate:      1/1 (1.00)
+2025-08-27 19:23:12,014 - root - INFO - Record:       Win

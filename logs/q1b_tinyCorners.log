@@ -1,0 +1,50 @@
+2025-08-27 19:23:01,526 - root - INFO - Logger Version: 2.0.0
+2025-08-27 19:23:01,526 - main - INFO - input_args: dict_items([('layout', './layouts/q1b_tinyCorners.lay'), ('pacman', <SearchAgent.SearchAgent object at 0x101a07710>), ('ghosts', [<RandomGhost.RandomGhost object at 0x101a157f0>, <RandomGhost.RandomGhost object at 0x101a6a750>, <RandomGhost.RandomGhost object at 0x101a6a840>, <RandomGhost.RandomGhost object at 0x101a6a870>]), ('display', <textDisplay.NullGraphics object at 0x101a6a720>), ('numGames', 1), ('record', False), ('catchExceptions', True), ('timeout', 5), ('outfile', 'q1b_tinyCorners')])
+2025-08-27 19:23:01,526 - root - INFO - runGames
+2025-08-27 19:23:01,526 - root - INFO - 0/1
+2025-08-27 19:23:01,527 - root - INFO - newGame
+2025-08-27 19:23:01,527 - root - INFO - layout: %%%%%%%%
+%.    .%
+%   P  %
+% %%%% %
+% %    %
+% % %%%%
+%.%   .%
+%%%%%%%%
+2025-08-27 19:23:01,528 - root - INFO - runGame
+2025-08-27 19:23:01,528 - root - INFO - #agents:1
+2025-08-27 19:23:01,528 - root - INFO - #pacman:1
+2025-08-27 19:23:01,528 - root - INFO - #ghosts:0
+2025-08-27 19:23:01,528 - getStartState - INFO - I: q1b_problem,
+2025-08-27 19:23:01,528 - getStartState - INFO - O: (4, 5)
+2025-08-27 19:23:01,528 - isGoalState - INFO - I: q1b_problem,(4, 5),
+2025-08-27 19:23:01,528 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,528 - getSuccessors - INFO - I: q1b_problem,(4, 5),
+2025-08-27 19:23:01,528 - getSuccessors - INFO - O: [((4, 6), 'North', 1), ((5, 5), 'East', 1), ((3, 5), 'West', 1)]
+2025-08-27 19:23:01,528 - isGoalState - INFO - I: q1b_problem,(4, 6),
+2025-08-27 19:23:01,528 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,528 - getSuccessors - INFO - I: q1b_problem,(4, 6),
+2025-08-27 19:23:01,528 - getSuccessors - INFO - O: [((4, 5), 'South', 1), ((5, 6), 'East', 1), ((3, 6), 'West', 1)]
+2025-08-27 19:23:01,528 - isGoalState - INFO - I: q1b_problem,(5, 5),
+2025-08-27 19:23:01,528 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,528 - getSuccessors - INFO - I: q1b_problem,(5, 5),
+2025-08-27 19:23:01,528 - getSuccessors - INFO - O: [((5, 6), 'North', 1), ((6, 5), 'East', 1), ((4, 5), 'West', 1)]
+2025-08-27 19:23:01,528 - isGoalState - INFO - I: q1b_problem,(5, 6),
+2025-08-27 19:23:01,528 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,528 - getSuccessors - INFO - I: q1b_problem,(5, 6),
+2025-08-27 19:23:01,528 - getSuccessors - INFO - O: [((5, 5), 'South', 1), ((6, 6), 'East', 1), ((4, 6), 'West', 1)]
+2025-08-27 19:23:01,528 - isGoalState - INFO - I: q1b_problem,(6, 5),
+2025-08-27 19:23:01,528 - isGoalState - INFO - O: False
+2025-08-27 19:23:01,528 - getSuccessors - INFO - I: q1b_problem,(6, 5),
+2025-08-27 19:23:01,528 - getSuccessors - INFO - O: [((6, 6), 'North', 1), ((6, 4), 'South', 1), ((5, 5), 'West', 1)]
+2025-08-27 19:23:01,528 - isGoalState - INFO - I: q1b_problem,(6, 6),
+2025-08-27 19:23:01,529 - isGoalState - INFO - O: True
+2025-08-27 19:23:01,529 - root - INFO - Out of actions
+2025-08-27 19:23:01,529 - root - INFO - Remaining Food: 3
+2025-08-27 19:23:01,529 - root - INFO - Remaining Food: 3
+2025-08-27 19:23:01,529 - root - INFO - moveHistory: [[(0, 'North'), (0, 'East'), (0, 'East')]]
+2025-08-27 19:23:01,529 - root - INFO - pathLength: [3]
+2025-08-27 19:23:01,529 - root - INFO - Average Score: 7.00
+2025-08-27 19:23:01,529 - root - INFO - Scores: 7.0
+2025-08-27 19:23:01,529 - root - INFO - Win Rate:      0/1 (0.00)
+2025-08-27 19:23:01,529 - root - INFO - Record:       Draw
