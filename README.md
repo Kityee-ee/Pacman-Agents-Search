@@ -1,4 +1,4 @@
-# Pacman Search & Adversarial Agents
+# Pacman Search & Adversarial Agents (FIT5047)
 
 This repository contains a collection of intelligent agents for the Pacman environment,
 focusing on pathfinding and adversarial decision-making under strict real-time constraints.
